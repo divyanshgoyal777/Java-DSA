@@ -1,4 +1,6 @@
-import java.util.*;
+import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.Queue;
 
 public class GraphBFS {
     static class Edge {
@@ -63,6 +65,7 @@ public class GraphBFS {
 
     public static void main(String args[]) {
         int V = 7, start = 0;
+        @SuppressWarnings("unchecked")
         ArrayList<Edge> graph[] = new ArrayList[V];
         createGraph(graph);
         bfs(graph, start, V);

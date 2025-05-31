@@ -30,6 +30,7 @@ public class Graph {
 
     public static void main(String args[]) {
         int Vertex = 4;
+        @SuppressWarnings("unchecked")
         ArrayList<Edge> graph[] = new ArrayList[Vertex];
 
         createGraph(graph);

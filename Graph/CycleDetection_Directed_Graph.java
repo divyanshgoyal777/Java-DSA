@@ -46,6 +46,7 @@ public class CycleDetection_Directed_Graph {
 
     public static void main(String args[]) {
         int V = 7;
+        @SuppressWarnings("unchecked")
         ArrayList<Edge> graph[] = new ArrayList[V];
         createGraph(graph);
         boolean visited[] = new boolean[V];
